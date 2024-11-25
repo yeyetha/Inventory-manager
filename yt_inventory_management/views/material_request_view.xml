@@ -1,0 +1,9 @@
+<odoo>
+
+    <record id="action_material_request" model="ir.actions.act_window">
+        <field name="name">Material Requests</field>
+        <field name="res_model">stock.picking</field>
+        <field name="view_mode">form,tree</field>
+    </record>
+
+</odoo>

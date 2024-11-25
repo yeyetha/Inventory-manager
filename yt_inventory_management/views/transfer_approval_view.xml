@@ -1,0 +1,7 @@
+<odoo>
+    <record id="action_stock_transfer" model="ir.actions.act_window">
+        <field name="name">Stock Transfers</field>
+        <field name="res_model">stock.picking</field>
+        <field name="view_mode">form,tree</field>
+    </record>
+</odoo>
