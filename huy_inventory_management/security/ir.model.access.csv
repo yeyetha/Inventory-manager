@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_construction_inventory_user,access.construction.inventory.user,model_stock_quant,base.group_user,1,1,1,1
+access_material_request_user,access.material.request.user,model_stock_picking,base.group_user,1,1,1,1
+access_budget_control_user,access.budget.control.user,model_project_project,base.group_user,1,1,1,1
