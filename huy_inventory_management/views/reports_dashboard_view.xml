@@ -1,0 +1,8 @@
+<odoo>    
+    <record id="action_reports_dashboard" model="ir.actions.act_window">
+        <field name="name">Reports Dashboard</field>
+        <field name="res_model">stock.quant</field>
+        <field name="view_mode">form,tree</field>
+        
+    </record>
+</odoo>

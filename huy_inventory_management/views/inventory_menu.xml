@@ -1,0 +1,62 @@
+<odoo>
+    <!-- Main Menu -->
+    <menuitem id="yt_inventory_menu" 
+              name="Construction Inventory" 
+              sequence="3" />
+    
+    <!-- item -->
+    <menuitem id="yt_product_menu"
+        name="name"
+        parent="construction_inventory_menu"
+        sequence="10"/>
+    
+    <menuitem id="yt_product_template_menu" name="Products" 
+        parent="yt_product_menu"
+        action="action_product_template" sequence="20"/>
+
+    <!-- Inventory Dashboard -->
+    <menuitem id="yt_dashboard_menu" 
+        name="Dashboard" 
+        parent="yt_inventory_menu" 
+        action="action_inventory_dashboard" 
+        sequence="20"/>
+
+    <!-- operation -->
+
+    <menuitem id="yt_operation_menu" 
+        name="Operation" 
+        parent="construction_inventory_menu"                
+        sequence="30"/>
+
+    <!-- Submenu - Material Requests -->
+    <menuitem id="material_request_menu" 
+        name="Material Requests" 
+        parent="yt_operation_menu"
+        action="action_material_request" 
+        sequence="30"/>
+
+    <!-- Submenu - Stock Transfers -->
+    <menuitem id="stock_transfer_menu" 
+              name="Stock Transfers" 
+              parent="construction_inventory_menu" 
+              action="action_stock_transfer" 
+              sequence="30"/>
+
+    <!-- Submenu - Budget Control -->
+    <menuitem id="budget_control_menu" 
+              name="Budget Control" 
+              parent="construction_inventory_menu" 
+              action="action_budget_control" 
+              sequence="40"/>
+
+    <!-- Submenu - Reports Dashboard -->
+    <menuitem id="reports_dashboard_menu" 
+              name="Reports" 
+              parent="construction_inventory_menu" 
+              action="action_reports_dashboard" 
+              sequence="50"/>
+
+    
+
+    
+</odoo>

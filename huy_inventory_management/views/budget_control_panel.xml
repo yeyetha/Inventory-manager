@@ -1,0 +1,7 @@
+<odoo>
+    <record id="action_budget_control" model="ir.actions.act_window">
+        <field name="name">Budget Control</field>
+        <field name="res_model">project.project</field>
+        <field name="view_mode">form,tree</field>
+    </record>
+</odoo>
